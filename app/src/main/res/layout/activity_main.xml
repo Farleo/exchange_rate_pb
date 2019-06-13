@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.farleo.exchange_rate.MainActivity">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="@string/refresh"
+        android:verticalScrollbarPosition="defaultPosition" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:id="@+id/fetcheddata"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/loading_exchange_rate"
+            android:padding="5dp"
+            android:textColorLink="#006F2323"
+            android:textIsSelectable="false"
+            android:textSize="24sp" />
+    </ScrollView>
+
+
+</RelativeLayout>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Exchange rate PB</string>
+    <string name="refresh">Refresh</string>
+    <string name="loading_exchange_rate">Loading exchange rate...</string>
+</resources>
